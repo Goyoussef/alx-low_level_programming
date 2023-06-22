@@ -1,13 +1,13 @@
 #include "main.h"
-
 /**
- * _isdigit - check for a digit
- * @c : character to check
- * Return:0 or 1
+ * mul - returns the product of its parameters
+ * @a: int type number
+ * @b: int type number
+ * Return:0
  */
 
-int _isdigit(int c)
-{
-	return (c >= 48 && c <= 57);
 
+int mul(int a, int b)
+{
+return (a * b);
 }
